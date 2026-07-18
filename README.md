@@ -50,7 +50,7 @@ decision is documented further in `Comparison between With Pd & Without Pd.pdf`.
 ```bash
 # 1. Clone the repo
 git clone https://github.com/AmulyaWalimbe/Task01---Descriptive-Stats
-cd Task 01 - Descriptive Stats
+cd Task01 - Descriptive Stats
 
 # 2. Download the dataset separately and place it here as:
 #    fb_ads_president_scored_anon.csv
