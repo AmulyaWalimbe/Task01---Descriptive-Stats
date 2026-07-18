@@ -93,10 +93,10 @@ numbers.
 ## Repo contents
 
 ```
-pure_python_stats.py   - stdlib-only descriptive stats
-pandas_stats.py         - Pandas descriptive stats
-FINDINGS.md             - narrative analysis of the data
-COMPARISON.md           - reflection on the two approaches
+Without_Pandas.ipynb   - stdlib-only descriptive stats
+With_Pandas.ipynb         - Pandas descriptive stats
+Findings of Task 01.pdf             - narrative analysis of the data
+Comparison between With Pd& Without Pd.pdf           - reflection on the two approaches
 requirements.txt        - dependencies for pandas_stats.py
 README.md               - this file
 ```
