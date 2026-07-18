@@ -13,9 +13,9 @@ standard deviation, median for numeric columns; count, unique values,
 mode, and top-5 frequencies for categorical columns; plus overall
 shape, missing-value counts, and inferred data types.
 
-- `pure_python_stats.py` — uses only `csv`, `re`, `math`, `statistics`,
+- `Without_Pandas.ipynb` — uses only `csv`, `re`, `math`, `statistics`,
   `collections` from the standard library.
-- `pandas_stats.py` — uses Pandas (`read_csv`, `describe`,
+- `With_Pandas.ipynb` — uses Pandas (`read_csv`, `describe`,
   `value_counts`, `isna`, etc.) to do the same analysis.
 
 ## Dataset
@@ -43,24 +43,24 @@ storing them as string-encoded ranges, e.g.:
 
 Both scripts parse this and convert it to the midpoint of the range
 (`249.5` in the example above) before computing statistics. This
-decision is documented further in `COMPARISON.md`.
+decision is documented further in `Comparison between With Pd& Without Pd.pdf`.
 
 ## How to run
 
 ```bash
 # 1. Clone the repo
 git clone <your-repo-url>
-cd Task_01_Descriptive_Stats
+cd Task 01 - Descriptive Stats
 
 # 2. Download the dataset separately and place it here as:
 #    fb_ads_president_scored_anon.csv
 
 # 3. Run the pure Python script (no install needed)
-python pure_python_stats.py fb_ads_president_scored_anon.csv
+python Without_Pandas.ipynb fb_ads_president_scored_anon.csv
 
 # 4. Install Pandas and run the second script
 pip install -r requirements.txt
-python pandas_stats.py fb_ads_president_scored_anon.csv
+python With_Pandas.ipynb fb_ads_president_scored_anon.csv
 ```
 
 Both scripts also default to looking for
@@ -69,7 +69,7 @@ argument is given.
 
 ## Summary of findings
 
-See `FINDINGS.md` for the full write-up. Headline points:
+See `Findings of Task 01.pdf` for the full write-up. Headline points:
 
 - Total ad spend across the dataset is about **$262 million** (using
   range midpoints). The top 10 spending pages account for about
