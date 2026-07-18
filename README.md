@@ -97,6 +97,6 @@ Without_Pandas.ipynb   - stdlib-only descriptive stats
 With_Pandas.ipynb         - Pandas descriptive stats
 Findings of Task 01.pdf             - narrative analysis of the data
 Comparison between With Pd& Without Pd.pdf           - reflection on the two approaches
-requirements.txt        - dependencies for pandas_stats.py
+requirements.txt        - dependencies for With_Pandas.ipynb
 README.md               - this file
 ```
