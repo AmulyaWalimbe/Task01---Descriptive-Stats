@@ -71,9 +71,18 @@ argument is given.
 
 See `Findings of Task 01.pdf` for the full write-up. Headline points:
 
-- Total ad spend across the dataset is about **$262 million** (using range midpoints). The top 10 spending pages account for about **63%** of that, led by the Kamala Harris campaign page (~$82.8M), Joe Biden (~$26.4M), and Donald J. Trump (~$19.6M).
-- Spend rises sharply in the final two weeks before the election (week of Oct 27, 2024 alone: ~$36.4M).
-- "Donald Trump" is the single most frequent named mention (53,182 ads), ahead of "Kamala Harris." Candidate names aren't always formatted consistently in the data (e.g. "Donald Trump" vs. "President Trump" are counted separately).
+- Total ad spend across the dataset is about **$262 million** (using
+  range midpoints). The top 10 spending pages account for about
+  **63%** of that, led by the Kamala Harris campaign page (approx.
+  $82.8M), Joe Biden (approx. $26.4M), and Donald J. Trump (approx.
+  $19.6M).
+- Spend rises sharply in the final two weeks before the election
+  (week of Oct 27, 2024 alone: approx. $36.4M).
+- "Donald Trump" is the single most frequent named mention (53,182
+  ads), ahead of "Kamala Harris." Candidate names aren't always
+  formatted consistently in the data (e.g. "Donald Trump" vs.
+  "President Trump" are counted separately).
+
 
 ## Comparing the two approaches
 
