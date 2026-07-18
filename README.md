@@ -43,7 +43,7 @@ storing them as string-encoded ranges, e.g.:
 
 Both scripts parse this and convert it to the midpoint of the range
 (`249.5` in the example above) before computing statistics. This
-decision is documented further in `Comparison between With Pd& Without Pd.pdf`.
+decision is documented further in `Comparison between With Pd & Without Pd.pdf`.
 
 ## How to run
 
@@ -86,7 +86,7 @@ See `Findings of Task 01.pdf` for the full write-up. Headline points:
 
 ## Comparing the two approaches
 
-See `COMPARISON.md` for the full reflection. In short: the numeric
+See `Comparison between With Pd & Without Pd.pdf` for the full reflection. In short: the numeric
 results **match exactly** between the two scripts once the range-dict
 columns are handled the same way in both. The differences that showed
 up were in *how much work it took to get there*, not in the final
@@ -98,7 +98,7 @@ numbers.
 Without_Pandas.ipynb   - stdlib-only descriptive stats
 With_Pandas.ipynb         - Pandas descriptive stats
 Findings of Task 01.pdf             - narrative analysis of the data
-Comparison between With Pd& Without Pd.pdf           - reflection on the two approaches
+Comparison between With Pd & Without Pd.pdf           - reflection on the two approaches
 requirements.txt        - dependencies for With_Pandas.ipynb
 README.md               - this file
 ```
